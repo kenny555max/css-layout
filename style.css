@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+}
+.services .title{
+    text-align: center;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    /* background-color: red; */
+    gap: 20px;
+    /* padding: 20px 0; */
+}
+.parent div{
+    width: 300px;
+    height: auto;
+    background-color: navy;
+    color: floralwhite;
+    padding: 20px 20px 20px 20px;
+}
